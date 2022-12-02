@@ -1,0 +1,41 @@
+.btnUpdate {
+  display: none;
+}
+
+#logo{
+  display: flex;
+  padding-left: 625px;
+}
+
+body{
+  background-image: url(../Icons/terraza.jpg);
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+#label{
+  background-color: white;
+  justify-content: center;
+}
+
+#home{
+  display: flex;
+  padding-left: 650px;
+}
+
+#logout{
+  cursor: pointer;
+}
+
+.modify{
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}

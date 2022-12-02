@@ -1,0 +1,83 @@
+/* INICIO DE ESTILO PARA EL BUSCARO DE buscar.php*/
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#divResultados {
+  margin: -2px;
+}
+
+.resultados {
+  width: 222px;
+  margin-left: 2px;
+  padding: 5px;
+  font-size: 13px;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-color: black;
+
+}
+
+.resultados:hover {
+  background-color: rgb(161, 190, 235);
+  cursor: pointer;
+}
+
+#search {
+  width: 228px;
+  border-width: 1px;
+  outline: none;
+}
+
+#divFecha {
+  display: none;
+}
+/* FIN DE ESTILO PARA EL BUSCARO DE buscar.php*/
+
+body{
+  background-image: url(../Icons/field2.jpg);
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+  display: flex;
+  padding-left: 625px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  font-size: large;
+  font-weight: bold;
+  background-color: white;
+}
+
+.home{
+  display: flex;
+  padding-left: 1221px;
+}
+
+.logOut{
+  display: flex;
+  justify-content: end;
+  padding-right: 65px;
+}
+
+.reservas{
+  display: flex;
+  justify-content: end;
+  padding-right: 40px;
+}
+
+/* #info{
+  border-style: groove;
+  border-radius: 6px;
+  border-color: rgb(82, 163, 255);
+  background-color: rgb(209, 255, 191);
+} */
